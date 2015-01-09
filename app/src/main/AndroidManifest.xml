@@ -1,0 +1,24 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.vn.v_prokopets.vk_photo_viewer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="ua.vn.v_prokopets.vk_photo_viewer.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ua.vn.v_prokopets.vk_photo_viewer.list_albums.ListAlbumsActivity" />
+        <activity android:name="ua.vn.v_prokopets.vk_photo_viewer.list_photos.ListPhotosActivity" />
+        <activity android:name="ua.vn.v_prokopets.vk_photo_viewer.photo.PhotoActivity" />
+    </application>
+
+</manifest>

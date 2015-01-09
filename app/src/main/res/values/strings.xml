@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VKPhotoViewer</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_about">About</string>
+    <string name="menu_back">Back</string>
+    <string name="album_description">Description:</string>
+    <string name="album_size">Number of photos:</string>
+</resources>
